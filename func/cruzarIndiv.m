@@ -1,8 +1,8 @@
 function Y = cruzarIndiv(indiv, metodoCruza)
     %% Cruza de Individuos
-    % Se generan los descendientes de la poblaci�n de entrada.
+    % Se generan los descendientes de la población de entrada.
     % Entrada
-    % - indiv: Poblaci�n a cruzar.
+    % - indiv: Población a cruzar.
     % - metodoCruza:
     %       1. Un corte
     %       2. Dos cortes
