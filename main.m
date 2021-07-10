@@ -17,7 +17,7 @@ pob   = [x1, x2];
 
 %% Condiciones
 mutar  = 1;  % Mutación 1 - Sí
-maxGen = 4; % Generaciones máximas a ejecutar el AG.
+maxGen = 4;  % Generaciones máximas a ejecutar el AG.
 paro   = 1;  % Condicón de paro. 1 - Generaciones máximas 2 - Mejora en aptitud
 cruza  = 3;  % 1- Un corte 2 - Dos cortes 3 - Uniforme
 cond   = [maxGen, paro, cruza, mutar];
