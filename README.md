@@ -1,16 +1,3 @@
-# minFunctionGA
-Algoritmo genético para calcular el valor mínimo de una función dada.
-
-Características:
-
-* Población inicial generada aleatoriamente, donde cada individuo posee 16 genes.
-* Selección Rank.
-* Métodos de cruza:
-  * Un corte 
-  * Dos cortes
-  * Uniforme
-* Mutación.
-
 ## Introducción
 
 Un algoritmo genético es una técnica de búsqueda heurística inspirada en la teoría de la evolución natural. Este algoritmo refleja el proceso de selección natural donde los individuos más aptos son seleccionados para reproducirse y transmitir su código genético a la siguiente generación, con el fin
