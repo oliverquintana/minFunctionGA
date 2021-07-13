@@ -57,7 +57,7 @@ generación, aplicada en cierto porcentaje de la población.
 
 La función a minimizar es f(x_1, x_2) = 10 − e^(−x_1 − 3x_2), visualizada en la ilustración siguiente.
 
-<img src="/img/fig1_func.png" width="400">
+<img src="/img/fig1_func.png" width="400" />
 
 La población inicial es generada de manera aleatoria. Cada individuo posee 16 genes
 correspondientes a las dos variables x 1 , x 2 dentro del intervalo [-1, 1].
@@ -82,7 +82,7 @@ visualizar el efecto que tiene el correr un número específico de generaciones.
 
 ## Resultados
 
-<img src="/img/fig2_indiv1.png" width="400"> 
+<img src="/img/fig2_indiv1.png" width="400" /> 
 
 Se consideró la implementación de la mutación, por lo que se realizó una prueba para determinar
 si ayuda a la convergencia del algoritmo. De una población de 50 individuos se corrió el algoritmo
@@ -91,17 +91,17 @@ la misma población inicial. Al paso de estas generaciones se observó que no to
 convergen en un mismo punto, pero sí tienen la tendencia a hacerlo. Sin mutación se obtuvo lo
 siguiente:
 
-<img src="/img/fig3_indiv2.png" width="400">
+<img src="/img/fig3_indiv2.png" width="400" />
 
-<img src="/img/fig4_apt1.png" width="400">
+<img src="/img/fig4_apt1.png" width="400" />
 
 Es claro que el algoritmo tiende a converger hacia un mismo punto, pero con el uso de la mutación
 se llegó a que con el mismo número de épocas se obtuviera un mejor resultado en cuanto a aptitud
 global se refiere, lo cual se comprobó con lo siguiente:
 
-<img src="/img/fig5_indiv3.png" width="400">
+<img src="/img/fig5_indiv3.png" width="400" />
 
-<img src="/img/fig6_apt2.png" width="400">
+<img src="/img/fig6_apt2.png" width="400" />
 
 La mayoría de los individuos convergen a un punto muy cercano al óptimo global, siendo este el
 punto donde x1 = x2 = 0. Así mismo, el promedio de aptitud global es prácticamente igual a la
@@ -114,11 +114,11 @@ mejora muy poco después de ciertas épocas de estancamiento, por lo que la cond
 un paso de 50 épocas sin mejora en la aptitud del mejor individuo, cuyo comportamiento se observa en 
 las ilustraciones siguientes.
 
-<img src="/img/fig7_indiv4.png" width="400">
+<img src="/img/fig7_indiv4.png" width="400" />
 
-<img src="/img/fig8_apt3.png" width="400">
+<img src="/img/fig8_apt3.png" width="400" />
 
-<img src="/img/fig9_apt4.png" width="400">
+<img src="/img/fig9_apt4.png" width="400" />
 
 ## Discusión
 
